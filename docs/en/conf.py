@@ -250,4 +250,5 @@ def builder_inited_handler(app):
 
 
 def setup(app):
-    app.connect('builder-inited', builder_inited_handler)
+    pass
+    # app.connect('builder-inited', builder_inited_handler)
