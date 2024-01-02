@@ -26,7 +26,7 @@ copyright = '2022-2024, CAIRI'
 author = 'CAIRI Authors'
 
 # The full version, including alpha/beta/rc tags
-version_file = '../../simvp/version.py'
+version_file = '../../openstl/version.py'
 
 
 def get_version():
@@ -96,7 +96,7 @@ html_theme_path = [pytorch_sphinx_theme.get_html_theme_path()]
 # yapf: disable
 html_theme_options = {
     # The target url that the logo directs to. Unset to do nothing
-    'logo_url': 'https://simvpv2.readthedocs.io/en/latest/',
+    'logo_url': 'https://openstl.readthedocs.io/en/latest/',
     # "menu" is a list of dictionaries where you can specify the content and the 
     # behavior of each item in the menu. Each item can either be a link or a
     # dropdown menu containing a list of links.
